@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    container_name: laravel-app
+    ports:
+      - "8088:80"  # Expose Nginx on port 8088
+    volumes:
+      - .:/var/www/html/elhawar  # Update this to match your application path
+    networks:
+      - app-network
+    environment:
+      - PHP_VERSION=7.4  # Specify PHP 7.4 if needed by Dockerfile
+
+  db:
+    image: mysql:5.7
+    container_name: mysql-db
+    environment:
+      MYSQL_ROOT_PASSWORD: Askar@1984
+      MYSQL_DATABASE: sportx_saas_trail_deletet
+      MYSQL_USER: laravel_user
+      MYSQL_PASSWORD: "Askar@1984"
+    ports:
+      - "3307:3306"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

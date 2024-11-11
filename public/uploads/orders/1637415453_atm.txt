@@ -1,0 +1,40 @@
+         
+CLIPS (facts)
+CLIPS (assert(help people in bank))
+Fact-1
+CLIPS (agenda)
+CLIPS (run)
+CLIPS (assert(if screen is hot , stop it))
+Fact-2
+CLIPS (assert(any damage in hardware , cheking settings))
+Fact-3
+CLIPS (assert(if electricity off , use battery))
+Fact-4
+CLIPS (assert(if atm stop , export the cards))
+Fact-5
+CLIPS (assert(when decrease money in account , send message to user))
+Fact-6
+CLIPS (assert(not deposit money, checking settings))
+
+[PATTERN1] The symbol 'not' has special meaning and may not be used as a relation name.
+CLIPS (assert(if atm isn't deposit money, checking settings))
+Fact-7
+CLIPS (assert(any key wrong , change key))
+Fact-8
+CLIPS (assert(black screen , out of service))
+Fact-9
+CLIPS (assert(touch screen , connect to bank))
+Fact-10
+CLIPS (facts)
+f-1     (help people in bank)
+f-2     (if screen is hot , stop it)
+f-3     (any damage in hardware , cheking settings)
+f-4     (if electricity off , use battery)
+f-5     (if atm stop , export the cards)
+f-6     (when decrease money in account , send message to user)
+f-7     (if atm isn't deposit money, checking settings)
+f-8     (any key wrong , change key)
+f-9     (black screen , out of service)
+f-10    (touch screen , connect to bank)
+For a total of 10 facts.
+CLIPS

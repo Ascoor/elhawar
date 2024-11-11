@@ -1,0 +1,349 @@
+@extends('accounting::layouts.report')
+@section('report-title') {{__('accounting::modules.accounting.report')}} @endsection
+@section('report-subtitle')
+{{__('accounting::modules.accounting.startDate')}} : {{App\Helper\Arabic::arNums($startDate)}}  -- {{__('accounting::modules.accounting.endDate')}} : {{App\Helper\Arabic::arNums($endDate)}}@endsection
+@section('report-content')
+    <table style="text-align: center" >
+        <thead>
+            <tr>
+            <th>{{__('accounting::modules.accounting.revenue')}}</th>
+
+            <th>{{__('accounting::modules.accounting.expenses')}}</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td>
+                        @foreach ($revenTerms as $term)
+                            <table>
+                                <thead>
+                                    <tr>
+                                    <th>
+                                        {{__('accounting::modules.accounting.name')}}
+                                    </th>
+                                    <th>
+                                        {{__('accounting::modules.accounting.totalCredit')}}
+                                    </th>
+                                    <th>
+                                        {{__('accounting::modules.accounting.totalDept')}}
+                                    </th>  
+                                    <th>
+                                        {{__('accounting::modules.accounting.total')}}
+                                    </th>
+                                </tr>                                                                        
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>{{App\Helper\Arabic::arNums($term['name'])}}</td>
+                                        <td>{{App\Helper\Arabic::arNums($term['totalCredit'])}}</td>
+                                        <td>{{App\Helper\Arabic::arNums($term['totalDept'])}}</td>
+                                        <td>{{App\Helper\Arabic::arNums($term['total'])}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            @if(!empty($term['subCodes']))
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                            <th>
+                                                {{__('accounting::modules.accounting.code')}}
+                                            </th>
+
+                                            <th>
+                                                {{__('accounting::modules.accounting.name')}}
+                                            </th>
+                                            <th>
+                                                {{__('accounting::modules.accounting.totalCredit')}}
+                                            </th>
+                                            <th>
+                                                {{__('accounting::modules.accounting.totalDept')}}
+                                            </th>  
+                                            <th>
+                                                {{__('accounting::modules.accounting.total')}}
+                                            </th> 
+                                        </tr>                                                                       
+                                        </thead>
+                                        <tbody>
+                                    @foreach ($term['subCodes'] as $code)
+                                            <tr>
+                                                <td>{{App\Helper\Arabic::arNums($code['code'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['breadcrumb'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['report']['totalCredit'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['report']['totalDept'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['report']['total'])}}</td>
+                                            </tr>
+                                    @endforeach                          
+                                        </tbody>
+                                    </table>
+                            @endif  
+                        @endforeach
+                        @isset($revenMiscTerm)
+                            <table>
+                                <thead>
+                                    <tr>
+                                    <th>
+                                        {{__('accounting::modules.accounting.name')}}
+                                    </th>
+                                    <th>
+                                        {{__('accounting::modules.accounting.totalCredit')}}
+                                    </th>
+                                    <th>
+                                        {{__('accounting::modules.accounting.totalDept')}}
+                                    </th>  
+                                    <th>
+                                        {{__('accounting::modules.accounting.total')}}
+                                    </th>        
+                                    </tr>                                                                
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>{{App\Helper\Arabic::arNums($revenMiscTerm['name'])}}</td>
+                                        <td>{{App\Helper\Arabic::arNums($revenMiscTerm['totalCredit'])}}</td>
+                                        <td>{{App\Helper\Arabic::arNums($revenMiscTerm['totalDept'])}}</td>
+                                        <td>{{App\Helper\Arabic::arNums($revenMiscTerm['total'])}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                                @if(!empty($revenMiscTerm['subCodes']))
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                            <th>
+                                                {{__('accounting::modules.accounting.code')}}
+                                            </th>
+
+                                            <th>
+                                                {{__('accounting::modules.accounting.name')}}
+                                            </th>
+                                            <th>
+                                                {{__('accounting::modules.accounting.totalCredit')}}
+                                            </th>
+                                            <th>
+                                                {{__('accounting::modules.accounting.totalDept')}}
+                                            </th>  
+                                            <th>
+                                                {{__('accounting::modules.accounting.total')}}
+                                            </th>      
+                                            </tr>                                                                  
+                                        </thead>
+                                        <tbody>
+                                    @foreach ($revenMiscTerm['subCodes'] as $code)
+                                            <tr>
+                                                <td>{{App\Helper\Arabic::arNums($code['code'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['breadcrumb'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['report']['totalCredit'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['report']['totalDept'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['report']['total'])}}</td>
+                                            </tr>
+                                    @endforeach                          
+                                        </tbody>
+                                    </table>
+                            @endif  
+                        @endisset
+
+
+                    </td>
+
+                    <td>
+
+                        @foreach ($expenTerms as $term)
+                            <table>
+                                <thead>
+                                    <tr>
+                                    <th>
+                                        {{__('accounting::modules.accounting.name')}}
+                                    </th>
+                                    <th>
+                                        {{__('accounting::modules.accounting.totalCredit')}}
+                                    </th>
+                                    <th>
+                                        {{__('accounting::modules.accounting.totalDept')}}
+                                    </th>  
+                                    <th>
+                                        {{__('accounting::modules.accounting.total')}}
+                                    </th>   
+                                    </tr>                                                                     
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>{{App\Helper\Arabic::arNums($term['name'])}}</td>
+                                        <td>{{App\Helper\Arabic::arNums($term['totalCredit'])}}</td>
+                                        <td>{{App\Helper\Arabic::arNums($term['totalDept'])}}</td>
+                                        <td>{{App\Helper\Arabic::arNums($term['total'])}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            @if(!empty($term['subCodes']))
+                                    <table>
+                                        <thead>
+                                            <tr>
+
+                                            <th>
+                                                {{__('accounting::modules.accounting.code')}}
+                                            </th>
+
+                                            <th>
+                                                {{__('accounting::modules.accounting.name')}}
+                                            </th>
+                                            <th>
+                                                {{__('accounting::modules.accounting.totalCredit')}}
+                                            </th>
+                                            <th>
+                                                {{__('accounting::modules.accounting.totalDept')}}
+                                            </th>  
+                                            <th>
+                                                {{__('accounting::modules.accounting.total')}}
+                                            </th>      
+                                            </tr>                                                                  
+                                        </thead>
+                                        <tbody>
+                                    @foreach ($term['subCodes'] as $code)
+                                            <tr>
+                                                <td>{{App\Helper\Arabic::arNums($code['code'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['breadcrumb'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['report']['totalCredit'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['report']['totalDept'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['report']['total'])}}</td>
+                                            </tr>
+                                    @endforeach                          
+                                        </tbody>
+                                    </table>
+                            @endif
+                        @endforeach
+
+                        @isset($expenMiscTerm)
+                            <table>
+                                <thead>
+                                    <tr>
+                                    <th>
+                                        {{__('accounting::modules.accounting.name')}}
+                                    </th>
+                                    <th>
+                                        {{__('accounting::modules.accounting.totalCredit')}}
+                                    </th>
+                                    <th>
+                                        {{__('accounting::modules.accounting.totalDept')}}
+                                    </th>  
+                                    <th>
+                                        {{__('accounting::modules.accounting.total')}}
+                                    </th>         
+                                </tr>                                                               
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>{{App\Helper\Arabic::arNums($expenMiscTerm['name'])}}</td>
+                                        <td>{{App\Helper\Arabic::arNums($expenMiscTerm['totalCredit'])}}</td>
+                                        <td>{{App\Helper\Arabic::arNums($expenMiscTerm['totalDept'])}}</td>
+                                        <td>{{App\Helper\Arabic::arNums($expenMiscTerm['total'])}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            @if(!empty($expenMiscTerm['subCodes']))
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                            <th>
+                                                {{__('accounting::modules.accounting.code')}}
+                                            </th>
+
+                                            <th>
+                                                {{__('accounting::modules.accounting.name')}}
+                                            </th>
+                                            <th>
+                                                {{__('accounting::modules.accounting.totalCredit')}}
+                                            </th>
+                                            <th>
+                                                {{__('accounting::modules.accounting.totalDept')}}
+                                            </th>  
+                                            <th>
+                                                {{__('accounting::modules.accounting.total')}}
+                                            </th>
+                                        </tr>                                                                        
+                                        </thead>
+                                        <tbody>
+                                    @foreach ($expenMiscTerm['subCodes'] as $code)
+                                            <tr>
+                                                <td>{{App\Helper\Arabic::arNums($code['code'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['breadcrumb'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['report']['totalCredit'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['report']['totalDept'])}}</td>
+                                                <td>{{App\Helper\Arabic::arNums($code['report']['total'])}}</td>
+                                            </tr>
+                                    @endforeach                          
+                                        </tbody>
+                                    </table>
+                            @endif  
+                        @endisset
+
+                    </td>
+                </tr>
+        </tbody>
+    </table>
+    @isset($accMiscTerm)
+    <br>
+    <br>
+    <br>
+
+    <table> 
+        <thead>
+            <tr>
+                <th colspan="3">
+                    {{__('accounting::modules.accounting.accounts')}}/{{App\Helper\Arabic::arNums($accMiscTerm['name'])}}
+                </th>
+                <th>
+                    {{__('accounting::modules.accounting.total')}}
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+
+        <tr>
+
+            
+            <td colspan="3">
+
+                @if(!empty($accMiscTerm['subCodes']))
+                <table>
+                    <thead>
+                        <tr>
+                        <th>
+                            {{__('accounting::modules.accounting.code')}}
+                        </th>
+
+                        <th>
+                            {{__('accounting::modules.accounting.name')}}
+                        </th>
+                        <th>
+                            {{__('accounting::modules.accounting.totalCredit')}}
+                        </th>
+                        <th>
+                            {{__('accounting::modules.accounting.totalDept')}}
+                        </th>  
+                        <th>
+                            {{__('accounting::modules.accounting.total')}}
+                        </th>
+                    </tr>                                                                        
+                    </thead>
+                    <tbody>
+                @foreach ($accMiscTerm['subCodes'] as $code)
+                        <tr>
+                            <td>{{App\Helper\Arabic::arNums($code['code'])}}</td>
+                            <td>{{App\Helper\Arabic::arNums($code['breadcrumb'])}}</td>
+                            <td>{{App\Helper\Arabic::arNums($code['report']['totalCredit'])}}</td>
+                            <td>{{App\Helper\Arabic::arNums($code['report']['totalDept'])}}</td>
+                            <td>{{App\Helper\Arabic::arNums($code['report']['total'])}}</td>
+                        </tr>
+                @endforeach                          
+                    </tbody>
+                </table>
+        @endif  
+
+            </td>
+            <td>
+                {{App\Helper\Arabic::arNums($accMiscTerm['total'])}}
+            </td>
+        </tr>
+        </tbody>
+    </table>
+@endisset
+@endsection

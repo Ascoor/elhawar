@@ -1,0 +1,280 @@
+[Thu Jan 26 11:51:51.224355 2023] [core:error] [pid 451856] [client 185.180.143.79:54528] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Thu Jan 26 17:12:40.082817 2023] [core:error] [pid 451858] [client 185.180.143.8:57114] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Thu Jan 26 22:32:11.866312 2023] [authz_core:error] [pid 466090] [client 139.59.135.127:60404] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri Jan 27 05:24:10.656724 2023] [core:error] [pid 468511] [client 80.66.77.235:54432] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account1 HTTP/1.1
+[Fri Jan 27 13:10:52.314958 2023] [ssl:error] [pid 477115] [client 3.83.16.171:60778] AH02042: rejecting client initiated renegotiation
+[Fri Jan 27 19:28:48.287708 2023] [core:error] [pid 476121] [client 185.180.143.71:37960] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Fri Jan 27 21:48:50.212017 2023] [core:error] [pid 485352] [client 185.180.143.6:32778] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Tue Jan 31 00:39:10.025873 2023] [ssl:error] [pid 76905] [client 167.248.133.47:52144] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Tue Jan 31 18:33:29.465254 2023] [core:error] [pid 99419] [client 152.89.196.211:54240] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jan 31 18:46:19.178298 2023] [authz_core:error] [pid 93063] [client 54.183.34.62:56395] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/wp-config.phps
+[Wed Feb 01 16:04:24.108121 2023] [ssl:error] [pid 117629] [client 162.142.125.211:41160] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Thu Feb 02 02:58:09.410955 2023] [ssl:error] [pid 133431] [client 54.208.0.46:46378] AH02042: rejecting client initiated renegotiation
+[Thu Feb 02 08:39:49.515426 2023] [core:error] [pid 140444] [client 152.89.196.211:35586] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Feb 02 15:43:03.221721 2023] [authz_core:error] [pid 140444] [client 161.35.153.48:43774] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Thu Feb 02 16:45:54.970269 2023] [core:error] [pid 145526] [client 185.180.143.138:47516] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Thu Feb 02 17:02:26.316947 2023] [core:error] [pid 140479] [client 185.180.143.79:37336] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Fri Feb 03 10:23:03.505336 2023] [authz_core:error] [pid 159569] [client 139.144.52.241:40384] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri Feb 03 15:07:04.285471 2023] [ssl:error] [pid 162051] [client 167.248.133.45:46960] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Sat Feb 04 19:30:57.170656 2023] [core:error] [pid 178192] [client 128.14.209.162:53226] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Sat Feb 04 20:55:24.822817 2023] [core:error] [pid 190172] [client 193.118.53.210:59988] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Thu Feb 09 11:27:50.984108 2023] [core:error] [pid 277934] [client 152.89.196.211:56062] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Feb 09 12:25:36.774961 2023] [core:error] [pid 277936] [client 185.180.143.79:50456] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Thu Feb 09 22:45:58.721635 2023] [core:error] [pid 285075] [client 185.180.143.8:53094] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Fri Feb 10 05:14:11.896898 2023] [core:error] [pid 287767] [client 152.89.196.211:56032] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Feb 10 16:12:16.502910 2023] [authz_core:error] [pid 292418] [client 104.156.155.30:48334] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri Feb 10 21:12:53.673197 2023] [authz_core:error] [pid 303293] [client 194.195.219.159:59040] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sun Feb 12 10:59:32.046166 2023] [authz_core:error] [pid 331471] [client 35.216.216.40:45246] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sun Feb 12 16:49:36.683809 2023] [ssl:error] [pid 331526] [client 162.142.125.8:41004] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Mon Feb 13 21:21:50.799691 2023] [ssl:error] [pid 359808] [client 3.87.42.90:36918] AH02042: rejecting client initiated renegotiation
+[Wed Feb 15 02:06:58.380807 2023] [core:error] [pid 377099] [client 152.89.196.211:49832] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Feb 15 14:49:00.671209 2023] [core:error] [pid 384648] [client 152.89.196.211:55864] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Feb 18 06:32:55.907332 2023] [core:error] [pid 427683] [client 128.1.248.42:46520] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Sat Feb 18 07:00:07.671664 2023] [authz_core:error] [pid 432991] [client 139.59.138.104:60626] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sat Feb 18 07:52:35.441224 2023] [core:error] [pid 432991] [client 128.14.209.162:59292] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Mon Feb 20 11:58:35.320165 2023] [authz_core:error] [pid 474161] [client 170.187.164.225:44494] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Wed Feb 22 10:59:55.502535 2023] [core:error] [pid 519685] [client 152.89.196.211:57144] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Feb 23 23:44:14.678232 2023] [core:error] [pid 542328] [client 152.89.196.211:52222] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Feb 24 02:29:28.382470 2023] [core:error] [pid 545461] [client 185.180.143.6:48262] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Fri Feb 24 02:49:13.365007 2023] [core:error] [pid 545461] [client 185.180.143.6:35982] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Fri Feb 24 15:05:01.652939 2023] [core:error] [pid 554506] [client 152.89.196.211:38966] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Feb 25 02:17:03.571785 2023] [ssl:error] [pid 560087] [client 54.204.119.87:52182] AH02042: rejecting client initiated renegotiation
+[Sun Feb 26 08:52:21.525719 2023] [authz_core:error] [pid 581716] [client 139.144.150.26:56624] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sun Feb 26 23:48:54.767190 2023] [authz_core:error] [pid 598618] [client 3.21.236.232:48968] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Tue Feb 28 03:14:58.731676 2023] [authz_core:error] [pid 6041] [client 35.216.169.119:38816] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Tue Feb 28 16:22:09.151674 2023] [authz_core:error] [pid 14987] [client 104.156.155.30:58718] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Tue Feb 28 16:22:10.581922 2023] [authz_core:error] [pid 14779] [client 104.156.155.30:56424] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Thu Mar 02 00:56:50.784325 2023] [authz_core:error] [pid 54512] [client 139.144.52.241:57548] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Thu Mar 02 00:56:51.922810 2023] [authz_core:error] [pid 54512] [client 139.144.52.241:46118] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri Mar 03 01:00:59.875357 2023] [authz_core:error] [pid 65551] [client 161.35.155.246:48624] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri Mar 03 11:01:55.110925 2023] [ssl:error] [pid 69656] [client 18.215.177.247:35866] AH02042: rejecting client initiated renegotiation
+[Fri Mar 03 15:15:15.216958 2023] [core:error] [pid 75379] [client 152.89.196.211:45490] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Mar 04 00:25:53.601637 2023] [core:error] [pid 82386] [client 193.118.53.194:41470] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Sat Mar 04 04:42:38.032288 2023] [core:error] [pid 82408] [client 152.89.196.211:39236] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Mar 04 06:11:32.699743 2023] [core:error] [pid 88594] [client 193.118.53.210:57668] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Sun Mar 05 22:33:25.993229 2023] [authz_core:error] [pid 119056] [client 162.243.161.105:51748] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Wed Mar 08 05:33:24.658461 2023] [core:error] [pid 161212] [client 152.89.196.211:55388] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Mar 08 15:47:16.528200 2023] [core:error] [pid 163925] [client 152.89.196.211:42946] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Mar 09 08:16:05.342222 2023] [core:error] [pid 177341] [client 185.180.143.138:54756] AH00126: Invalid URI in request GET /dana-na/../dana/html5acc/guacamole/../../../../../../../etc/services?/dana/html5acc/guacamole/ HTTP/1.1
+[Fri Mar 10 21:02:07.872616 2023] [core:error] [pid 209270] [client 185.180.143.8:59152] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Fri Mar 10 22:22:08.565836 2023] [core:error] [pid 209270] [client 185.180.143.79:49484] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Sat Mar 11 03:48:53.434083 2023] [ssl:error] [pid 222894] [client 167.94.138.34:60810] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Tue Mar 14 17:04:49.216666 2023] [core:error] [pid 283118] [client 152.89.196.54:50830] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Mar 15 02:24:30.508595 2023] [core:error] [pid 285848] [client 185.180.143.6:60706] AH00126: Invalid URI in request GET /dana-na/../dana/html5acc/guacamole/../../../../../../../etc/services?/dana/html5acc/guacamole/ HTTP/1.1
+[Wed Mar 15 09:33:12.315506 2023] [authz_core:error] [pid 283759] [client 35.216.169.119:44528] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com
+[Thu Mar 16 05:21:45.070708 2023] [core:error] [pid 285850] [client 152.89.196.54:47560] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Mar 16 10:49:16.631423 2023] [authz_core:error] [pid 283118] [client 104.156.155.31:40416] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com
+[Thu Mar 16 10:49:17.331118 2023] [authz_core:error] [pid 318493] [client 104.156.155.31:36060] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com
+[Fri Mar 17 11:34:35.012461 2023] [authz_core:error] [pid 283121] [client 146.190.98.165:40114] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com
+[Fri Mar 17 23:22:39.229926 2023] [core:error] [pid 285799] [client 162.221.192.26:52036] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Sat Mar 18 02:15:15.853850 2023] [core:error] [pid 318493] [client 128.14.134.170:59908] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Fri Mar 24 06:40:03.894705 2023] [core:error] [pid 283122] [client 152.89.196.54:44072] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Mar 24 12:27:11.035827 2023] [core:error] [pid 283118] [client 152.89.196.54:60104] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Mar 25 17:43:30.565193 2023] [ssl:error] [pid 413275] [client 167.248.133.125:48256] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Sun Mar 26 20:21:32.817056 2023] [authz_core:error] [pid 428668] [client 3.15.216.64:44372] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sun Mar 26 20:22:54.951476 2023] [autoindex:error] [pid 432354] [client 3.15.216.64:54904] AH01276: Cannot serve directory /var/www/html/elhawar.codagetech.com/public/front/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Sun Mar 26 20:23:50.996419 2023] [autoindex:error] [pid 428668] [client 3.15.216.64:33630] AH01276: Cannot serve directory /var/www/html/elhawar.codagetech.com/public/saas/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Thu Mar 30 03:00:37.279958 2023] [ssl:error] [pid 510333] [client 54.235.32.76:41036] AH02042: rejecting client initiated renegotiation
+[Fri Mar 31 17:15:31.784338 2023] [core:error] [pid 529825] [client 152.89.196.54:34408] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Mar 31 22:23:34.963209 2023] [ssl:error] [pid 529827] [client 18.209.62.113:47008] AH02042: rejecting client initiated renegotiation
+[Sat Apr 01 03:44:42.882485 2023] [core:error] [pid 548992] [client 128.1.248.42:42772] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Sat Apr 01 04:27:57.028024 2023] [core:error] [pid 548992] [client 162.221.192.26:46612] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Sat Apr 01 20:47:25.917276 2023] [core:error] [pid 561961] [client 152.89.196.54:33134] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Apr 02 00:28:16.198497 2023] [core:error] [pid 567218] [client 152.89.196.54:37384] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Apr 02 10:13:40.051229 2023] [ssl:error] [pid 571522] [client 167.248.133.49:57498] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Sun Apr 02 23:17:06.800316 2023] [authz_core:error] [pid 578677] [client 35.216.229.26:39200] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Tue Apr 04 03:38:19.110384 2023] [ssl:error] [pid 600474] [client 167.94.138.35:44418] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Thu Apr 06 11:31:50.120470 2023] [core:error] [pid 632800] [client 80.66.77.236:41830] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account1 HTTP/1.1
+[Thu Apr 06 20:06:22.081526 2023] [core:error] [pid 649696] [client 185.180.143.137:57716] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Thu Apr 06 21:10:34.156882 2023] [core:error] [pid 649697] [client 185.180.143.137:51262] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Fri Apr 07 17:37:33.493648 2023] [core:error] [pid 1454] [client 185.180.143.18:42846] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Sun Apr 09 02:36:41.614724 2023] [core:error] [pid 25729] [client 152.89.196.54:38746] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Apr 09 09:52:12.853917 2023] [core:error] [pid 25729] [client 152.89.196.54:45414] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Apr 10 08:20:03.405329 2023] [ssl:error] [pid 41252] [client 167.248.133.38:42732] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Mon Apr 10 12:01:40.311264 2023] [core:error] [pid 43014] [client 185.180.143.72:57490] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Mon Apr 10 18:09:16.608972 2023] [core:error] [pid 49309] [client 185.180.143.138:55898] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Mon Apr 10 22:33:41.368875 2023] [core:error] [pid 49308] [client 185.180.143.79:55284] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Tue Apr 11 00:10:12.963290 2023] [core:error] [pid 53922] [client 185.180.143.137:50570] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Tue Apr 11 01:23:28.121352 2023] [authz_core:error] [pid 54126] [client 35.216.166.62:37942] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Tue Apr 11 19:06:32.587541 2023] [authz_core:error] [pid 64169] [client 139.144.52.241:47530] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Wed Apr 12 11:11:22.424662 2023] [ssl:error] [pid 71380] [client 167.94.138.51:42534] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Wed Apr 12 19:07:18.431076 2023] [core:error] [pid 80903] [client 185.180.143.6:43914] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Wed Apr 12 19:20:01.689847 2023] [authz_core:error] [pid 80354] [client 104.156.155.31:54718] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Wed Apr 12 19:20:04.175387 2023] [authz_core:error] [pid 81924] [client 104.156.155.31:59496] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Thu Apr 13 01:25:35.351024 2023] [core:error] [pid 85471] [client 185.180.143.136:33670] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Thu Apr 13 01:37:38.655436 2023] [core:error] [pid 85470] [client 185.180.143.81:56100] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Fri Apr 14 00:46:41.357663 2023] [core:error] [pid 103413] [client 80.66.77.239:57978] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account1 HTTP/1.1
+[Fri Apr 14 02:38:53.143080 2023] [ssl:error] [pid 105226] [client 167.248.133.125:42316] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Fri Apr 14 06:00:23.094052 2023] [authz_core:error] [pid 105339] [client 178.62.3.65:57480] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri Apr 14 07:37:22.684719 2023] [authz_core:error] [pid 105226] [client 144.126.202.105:35702] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sat Apr 15 04:10:45.724572 2023] [ssl:error] [pid 121172] [client 3.95.232.27:57106] AH02042: rejecting client initiated renegotiation
+[Mon Apr 17 00:39:39.430528 2023] [core:error] [pid 151382] [client 185.180.143.11:58956] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Tue Apr 18 04:07:37.595001 2023] [core:error] [pid 168807] [client 152.89.196.54:47442] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Apr 19 06:45:54.673373 2023] [authz_core:error] [pid 191815] [client 35.216.216.100:33046] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Thu Apr 20 08:58:30.709730 2023] [core:error] [pid 213937] [client 152.89.196.211:36886] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Apr 25 11:03:11.562977 2023] [ssl:error] [pid 335179] [client 3.92.244.213:36858] AH02042: rejecting client initiated renegotiation
+[Tue Apr 25 23:24:46.829608 2023] [core:error] [pid 337835] [client 152.89.196.222:55800] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Apr 26 04:00:41.548010 2023] [core:error] [pid 347351] [client 185.180.143.140:59146] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Thu Apr 27 09:11:51.304807 2023] [authz_core:error] [pid 371147] [client 172.105.37.32:49334] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Thu Apr 27 21:52:08.298367 2023] [core:error] [pid 378677] [client 152.89.196.222:34114] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Apr 29 18:16:38.232885 2023] [core:error] [pid 413405] [client 152.89.196.222:40078] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Apr 30 03:07:04.203103 2023] [authz_core:error] [pid 420166] [client 85.208.136.158:45644] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sun Apr 30 13:26:20.458327 2023] [core:error] [pid 428339] [client 152.89.196.144:37034] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon May 01 01:12:20.131457 2023] [core:error] [pid 433613] [client 185.180.143.140:36710] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Mon May 01 06:15:13.241709 2023] [authz_core:error] [pid 433616] [client 51.81.155.128:37682] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Mon May 01 06:15:14.047317 2023] [authz_core:error] [pid 436257] [client 51.81.155.128:58350] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Mon May 01 13:42:28.832784 2023] [core:error] [pid 441493] [client 185.180.143.141:43580] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Tue May 02 19:46:40.719232 2023] [authz_core:error] [pid 482204] [client 139.144.52.241:32914] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Tue May 02 19:46:41.712298 2023] [authz_core:error] [pid 481483] [client 139.144.52.241:49512] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Tue May 02 20:41:38.874300 2023] [authz_core:error] [pid 482204] [client 68.183.64.176:58512] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Wed May 03 02:13:35.812718 2023] [core:error] [pid 491086] [client 212.102.41.17:63569] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Wed May 03 02:13:36.894772 2023] [authz_core:error] [pid 490938] [client 212.102.41.17:62021] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Wed May 03 17:59:49.091991 2023] [authz_core:error] [pid 504137] [client 159.223.102.13:34036] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Thu May 04 01:54:37.792711 2023] [authz_core:error] [pid 510058] [client 35.216.190.48:49484] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri May 05 02:09:32.980442 2023] [ssl:error] [pid 521132] [client 44.212.3.154:44512] AH02042: rejecting client initiated renegotiation
+[Fri May 05 21:59:13.853590 2023] [authz_core:error] [pid 529680] [client 45.55.193.222:49436] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sat May 06 10:56:25.109797 2023] [authz_core:error] [pid 538280] [client 51.81.155.128:52740] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sat May 06 10:56:28.239555 2023] [authz_core:error] [pid 538256] [client 51.81.155.128:46160] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sat May 06 11:04:05.900058 2023] [authz_core:error] [pid 538257] [client 164.90.222.93:41140] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sat May 06 23:10:05.921945 2023] [authz_core:error] [pid 545457] [client 104.248.140.11:34700] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sun May 07 10:53:07.233064 2023] [core:error] [pid 550363] [client 152.89.196.144:43696] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon May 08 15:14:31.942648 2023] [core:error] [pid 564366] [client 152.89.196.144:40264] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue May 09 00:47:55.218826 2023] [authz_core:error] [pid 575722] [client 35.216.237.60:35452] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sun May 14 08:11:34.380601 2023] [ssl:error] [pid 658969] [client 167.248.133.184:32926] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Mon May 15 05:43:39.274731 2023] [core:error] [pid 681978] [client 152.89.196.144:59182] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue May 16 12:24:38.941062 2023] [core:error] [pid 710195] [client 152.89.196.144:58008] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed May 17 04:49:52.881949 2023] [ssl:error] [pid 721848] [client 162.142.125.217:59934] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Wed May 17 17:46:01.902151 2023] [core:error] [pid 734683] [client 152.89.196.144:39658] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu May 18 10:44:39.081512 2023] [authz_core:error] [pid 740271] [client 104.248.140.11:56840] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri May 19 05:04:35.828792 2023] [ssl:error] [pid 754071] [client 54.146.167.155:33108] AH02042: rejecting client initiated renegotiation
+[Sat May 20 03:36:32.958893 2023] [authz_core:error] [pid 773764] [client 104.156.155.34:40784] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sat May 20 03:36:34.561421 2023] [authz_core:error] [pid 773784] [client 104.156.155.34:34192] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Mon May 22 06:09:39.280005 2023] [core:error] [pid 800577] [client 152.89.196.144:41640] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon May 22 22:53:11.481390 2023] [authz_core:error] [pid 809450] [client 138.68.133.118:35618] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Mon May 22 23:58:07.266851 2023] [authz_core:error] [pid 809424] [client 35.216.229.26:38794] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Tue May 23 20:52:19.215002 2023] [core:error] [pid 839518] [client 83.97.73.89:54856] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed May 24 01:35:29.145296 2023] [core:error] [pid 847902] [client 193.32.162.190:44710] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account1 HTTP/1.1
+[Wed May 24 02:48:14.107422 2023] [core:error] [pid 847905] [client 193.32.162.190:57624] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account2 HTTP/1.1
+[Thu May 25 05:00:25.709157 2023] [authz_core:error] [pid 865685] [client 104.140.148.74:62236] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Thu May 25 08:46:43.135959 2023] [core:error] [pid 867747] [client 83.97.73.89:33216] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu May 25 11:19:10.148041 2023] [authz_core:error] [pid 880553] [client 161.35.155.246:58992] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri May 26 02:50:25.845216 2023] [authz_core:error] [pid 889733] [client 104.140.148.122:59708] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri May 26 04:20:16.125379 2023] [core:error] [pid 889732] [client 83.97.73.89:43646] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri May 26 08:14:19.096198 2023] [ssl:error] [pid 889736] [client 18.234.221.152:52770] AH02042: rejecting client initiated renegotiation
+[Fri May 26 21:45:35.648902 2023] [authz_core:error] [pid 901061] [client 104.140.148.62:65196] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri May 26 23:27:36.724568 2023] [core:error] [pid 901057] (36)File name too long: [client 159.65.219.198:43604] AH00036: access to /3000D00E0000FFFF3F0031313744373731343634304537353046007A7A7A7A7A7A7A7A7A7A7A7A7A7A7A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000008047A7A7A7A7A7A7A7A7A0000000000000000000000000000000000000000000000000000000000000000 failed (filesystem path '/var/www/html/elhawar.codagetech.com/public/3000D00E0000FFFF3F0031313744373731343634304537353046007A7A7A7A7A7A7A7A7A7A7A7A7A7A7A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000008047A7A7A7A7A7A7A7A7A0000000000000000000000000000000000000000000000000000000000000000')
+[Sat May 27 06:48:02.214970 2023] [authz_core:error] [pid 907846] [client 104.140.148.66:64874] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sun May 28 10:55:22.864581 2023] [authz_core:error] [pid 925955] [client 172.104.4.17:55768] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sun May 28 10:55:25.562092 2023] [authz_core:error] [pid 923591] [client 172.104.4.17:33016] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sun May 28 18:46:12.774966 2023] [core:error] [pid 934616] [client 83.97.73.89:53876] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon May 29 04:14:44.286457 2023] [ssl:error] [pid 939745] [client 167.94.138.127:58322] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Mon May 29 19:03:52.920238 2023] [core:error] [pid 951623] [client 83.97.73.89:38842] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue May 30 06:31:02.092649 2023] [core:error] [pid 957184] [client 45.156.129.7:38406] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Tue May 30 08:48:45.998357 2023] [core:error] [pid 959736] [client 45.156.129.12:55180] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Wed May 31 07:13:00.703416 2023] [core:error] [pid 984430] [client 83.97.73.89:57290] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jun 01 03:33:40.457314 2023] [core:error] [pid 995113] [client 83.97.73.89:39990] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jun 01 15:09:36.865992 2023] [authz_core:error] [pid 1003012] [client 35.216.190.247:55978] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Thu Jun 01 16:52:15.373984 2023] [core:error] [pid 1002354] [client 83.97.73.89:37692] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jun 01 17:32:51.551775 2023] [core:error] [pid 1007165] [client 74.201.30.143:58210] AH00126: Invalid URI in request GET /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/hosts HTTP/1.1
+[Thu Jun 01 17:32:56.578812 2023] [authz_core:error] [pid 1007162] [client 74.201.30.143:35478] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri Jun 02 06:27:50.869764 2023] [core:error] [pid 1014842] [client 83.97.73.89:36908] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Jun 02 11:14:21.342050 2023] [authz_core:error] [pid 1018519] [client 139.144.52.241:54106] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri Jun 02 11:14:23.341865 2023] [authz_core:error] [pid 1018518] [client 139.144.52.241:52434] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sat Jun 03 02:49:14.252139 2023] [core:error] [pid 1027631] [client 83.97.73.89:37846] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Jun 03 12:24:15.979828 2023] [ssl:error] [pid 1040654] [client 52.91.75.21:60434] AH02042: rejecting client initiated renegotiation
+[Sat Jun 03 15:59:29.009372 2023] [core:error] [pid 1040655] [client 83.97.73.89:37348] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jun 04 13:12:15.858427 2023] [core:error] [pid 1060467] [client 83.97.73.89:54160] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Jun 05 19:10:03.563563 2023] [core:error] [pid 1082398] [client 45.156.129.12:33738] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Tue Jun 06 05:04:50.885493 2023] [core:error] [pid 1084891] [client 83.97.73.89:52670] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jun 06 06:22:04.209106 2023] [core:error] [pid 1084892] [client 83.97.73.89:52856] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jun 07 10:37:58.037660 2023] [core:error] [pid 1105336] [client 83.97.73.89:41882] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jun 07 20:57:10.404519 2023] [core:error] [pid 1105583] [client 83.97.73.89:45120] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jun 08 13:11:30.585391 2023] [core:error] [pid 1124030] [client 83.97.73.89:40034] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jun 08 22:04:10.559687 2023] [authz_core:error] [pid 1128241] [client 178.128.151.41:57614] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri Jun 09 14:55:19.456983 2023] [core:error] [pid 1140564] [client 83.97.73.89:57104] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Jun 09 23:10:19.218316 2023] [core:error] [pid 1145852] [client 83.97.73.89:51022] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jun 11 04:26:57.591229 2023] [core:error] [pid 1169691] [client 83.97.73.89:56878] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jun 11 18:40:20.433091 2023] [core:error] [pid 1178617] [client 83.97.73.89:34962] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Jun 12 10:21:23.960932 2023] [core:error] [pid 1190440] [client 83.97.73.89:58084] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jun 13 00:25:17.612722 2023] [core:error] [pid 1202929] [client 83.97.73.89:36674] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jun 13 17:11:36.882269 2023] [core:error] [pid 1215491] [client 83.97.73.89:48942] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jun 14 05:45:54.903088 2023] [core:error] [pid 1219554] [client 185.65.135.140:44452] AH00126: Invalid URI in request POST /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 05:45:59.949852 2023] [core:error] [pid 1218823] [client 185.65.135.140:53134] AH00126: Invalid URI in request POST /assets/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 05:46:09.276136 2023] [core:error] [pid 1218822] [client 185.65.135.140:39958] AH00126: Invalid URI in request POST /js/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 05:46:11.254087 2023] [core:error] [pid 1218821] [client 185.65.135.140:58406] AH00126: Invalid URI in request POST /css/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 09:54:04.909965 2023] [core:error] [pid 1224128] [client 83.97.73.89:46880] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jun 14 14:06:44.771024 2023] [core:error] [pid 1224128] [client 185.65.135.140:51798] AH00126: Invalid URI in request POST /cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 14:06:52.778008 2023] [core:error] [pid 1224145] [client 185.65.135.140:35816] AH00126: Invalid URI in request POST /assets/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 14:07:00.452403 2023] [core:error] [pid 1224130] [client 185.65.135.140:52740] AH00126: Invalid URI in request POST /js/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Wed Jun 14 14:07:01.352882 2023] [core:error] [pid 1224132] [client 185.65.135.140:57310] AH00126: Invalid URI in request POST /css/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1
+[Thu Jun 15 03:23:21.316251 2023] [core:error] [pid 1233207] [client 83.97.73.89:43818] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jun 15 05:59:46.908810 2023] [core:error] [pid 1233207] [client 45.156.129.2:50260] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Thu Jun 15 16:03:11.975148 2023] [core:error] [pid 1240440] [client 83.97.73.89:51542] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jun 15 16:50:27.420953 2023] [core:error] [pid 1240439] [client 5.39.220.78:58406] AH00126: Invalid URI in request GET /dana-na/../dana/html5acc/guacamole/../../../../../../etc/passwd?/dana/html5acc/guacamole/ HTTP/1.1
+[Thu Jun 15 16:50:27.542733 2023] [core:error] [pid 1240439] [client 5.39.220.78:55788] AH00126: Invalid URI in request GET /dana-na/../dana/html5acc/guacamole/../../../../../../etc/passwd?/dana/html5acc/guacamole/ HTTP/1.1
+[Thu Jun 15 21:17:05.509401 2023] [core:error] [pid 1244311] [client 193.32.162.190:43218] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account1 HTTP/1.1
+[Thu Jun 15 22:17:42.926295 2023] [core:error] [pid 1244278] [client 193.32.162.190:45486] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account2 HTTP/1.1
+[Fri Jun 16 07:23:48.938866 2023] [core:error] [pid 1248825] [client 83.97.73.89:40870] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Jun 16 16:24:31.708223 2023] [ssl:error] [pid 1256194] [client 23.20.73.161:40564] AH02042: rejecting client initiated renegotiation
+[Fri Jun 16 20:24:23.603565 2023] [core:error] [pid 1261602] [client 83.97.73.89:33266] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Jun 17 11:25:01.318987 2023] [core:error] [pid 1276709] [client 83.97.73.89:47322] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jun 18 00:35:38.191395 2023] [authz_core:error] [pid 1290183] [client 104.156.155.30:35812] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sun Jun 18 00:35:38.593695 2023] [authz_core:error] [pid 1290101] [client 104.156.155.30:42904] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sun Jun 18 06:53:41.403097 2023] [core:error] [pid 1290101] [client 83.97.73.89:33604] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jun 18 19:31:30.773312 2023] [authz_core:error] [pid 1309226] [client 172.104.4.17:46868] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sun Jun 18 19:31:31.478187 2023] [authz_core:error] [pid 1309245] [client 172.104.4.17:34594] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Sun Jun 18 20:31:18.020136 2023] [core:error] [pid 1309245] [client 83.97.73.89:56138] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Jun 19 11:47:34.240748 2023] [core:error] [pid 1320718] [client 83.97.73.89:42022] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jun 20 01:22:02.133474 2023] [core:error] [pid 1329549] [client 83.97.73.89:44110] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jun 20 04:06:21.197724 2023] [ssl:error] [pid 1329601] [client 3.87.2.131:57974] AH02042: rejecting client initiated renegotiation
+[Tue Jun 20 16:20:27.450627 2023] [core:error] [pid 1337346] [client 83.97.73.89:42380] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jun 21 06:20:54.939345 2023] [core:error] [pid 1348305] [client 83.97.73.89:50628] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jun 21 12:24:10.705627 2023] [authz_core:error] [pid 1353118] [client 35.216.229.26:47904] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Wed Jun 21 21:54:29.757438 2023] [core:error] [pid 1357040] [client 83.97.73.89:49002] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jun 22 09:27:50.224074 2023] [core:error] [pid 1369627] [client 83.97.73.89:50704] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Jun 23 01:47:14.827896 2023] [core:error] [pid 1380168] [client 83.97.73.89:44258] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Jun 23 02:09:53.445415 2023] [ssl:error] [pid 1380171] [client 162.142.125.216:57856] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Fri Jun 23 16:28:17.179712 2023] [core:error] [pid 1391511] [client 83.97.73.89:35278] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Jun 24 06:37:56.157502 2023] [core:error] [pid 1399817] [client 83.97.73.89:59862] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jun 25 10:25:44.952809 2023] [core:error] [pid 1418795] [client 83.97.73.89:59066] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Jun 26 00:54:25.439018 2023] [core:error] [pid 1427914] [client 83.97.73.89:58002] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Jun 26 05:09:39.317075 2023] [core:error] [pid 1428058] [client 185.180.143.80:56104] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Mon Jun 26 13:54:45.625510 2023] [core:error] [pid 1432262] [client 83.97.73.89:47256] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Jun 26 14:53:47.257200 2023] [authz_core:error] [pid 1438184] [client 139.59.230.191:55522] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Tue Jun 27 04:41:18.089047 2023] [core:error] [pid 1443956] [client 83.97.73.89:41166] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jun 27 04:53:45.650691 2023] [core:error] [pid 1443954] [client 193.32.162.190:49056] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account1 HTTP/1.1
+[Tue Jun 27 06:21:53.213478 2023] [core:error] [pid 1443957] [client 193.32.162.190:59812] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account2 HTTP/1.1
+[Tue Jun 27 09:23:23.446017 2023] [ssl:error] [pid 14823] [client 167.94.138.126:50904] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Wed Jun 28 02:42:24.212883 2023] [authz_core:error] [pid 25752] [client 134.122.63.192:50984] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Wed Jun 28 05:08:03.662340 2023] [core:error] [pid 25750] [client 83.97.73.89:38376] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jun 29 01:00:23.747225 2023] [authz_core:error] [pid 42960] [client 139.144.150.26:57694] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Thu Jun 29 04:46:17.790008 2023] [core:error] [pid 43669] [client 83.97.73.89:53462] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Thu Jun 29 11:46:45.207846 2023] [core:error] [pid 51928] [client 185.180.143.11:36180] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Thu Jun 29 16:18:24.968514 2023] [authz_core:error] [pid 51928] [client 35.216.199.51:34236] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Fri Jun 30 04:54:37.730360 2023] [core:error] [pid 63313] [client 83.97.73.89:59910] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Jun 30 07:08:45.003200 2023] [core:error] [pid 63315] [client 193.32.162.190:38562] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account1 HTTP/1.1
+[Fri Jun 30 08:09:25.526252 2023] [core:error] [pid 63312] [client 193.32.162.190:50924] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account2 HTTP/1.1
+[Fri Jun 30 17:03:49.797742 2023] [core:error] [pid 78010] [client 83.97.73.89:54198] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sat Jul 01 07:54:31.599739 2023] [core:error] [pid 89689] [client 83.97.73.89:54352] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jul 02 11:20:05.402169 2023] [ssl:error] [pid 114974] [client 167.248.133.189:41934] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Sun Jul 02 13:00:57.633870 2023] [core:error] [pid 114767] [client 83.97.73.89:38716] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Jul 03 01:25:30.076081 2023] [core:error] [pid 123573] [client 83.97.73.89:54746] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Jul 03 14:37:42.760168 2023] [core:error] [pid 131469] [client 83.97.73.89:56868] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Mon Jul 03 21:18:14.970652 2023] [core:error] [pid 140656] [client 185.180.140.5:57496] AH00126: Invalid URI in request GET /dana-na/../dana/html5acc/guacamole/../../../../../../../etc/services?/dana/html5acc/guacamole/ HTTP/1.1
+[Tue Jul 04 00:09:30.466451 2023] [ssl:error] [pid 143099] [client 54.144.55.74:35062] AH02042: rejecting client initiated renegotiation
+[Tue Jul 04 00:09:41.935669 2023] [authz_core:error] [pid 143100] [client 35.216.225.253:49424] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Tue Jul 04 03:41:24.405382 2023] [core:error] [pid 143480] [client 193.32.162.190:41412] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account1 HTTP/1.1
+[Tue Jul 04 04:44:26.120409 2023] [core:error] [pid 143096] [client 193.32.162.190:56198] AH00126: Invalid URI in request GET /../../mnt/mtd/Config/Account2 HTTP/1.1
+[Tue Jul 04 05:33:34.432245 2023] [core:error] [pid 146068] [client 83.97.73.89:40244] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Tue Jul 04 19:59:51.624134 2023] [ssl:error] [pid 166606] [client 167.248.133.186:47726] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Wed Jul 05 07:00:56.513268 2023] [core:error] [pid 181330] [client 83.97.73.89:35096] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jul 05 07:46:04.305119 2023] [authz_core:error] [pid 181647] [client 103.133.109.199:54067] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/wp-config.phps
+[Wed Jul 05 13:39:51.006532 2023] [core:error] [pid 188375] [client 83.97.73.89:56214] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jul 05 21:20:42.508413 2023] [authz_core:error] [pid 194317] [client 5.8.10.202:38816] AH01630: client denied by server configuration: /var/www/html/elhawar.codagetech.com/public/server-status
+[Tue Jul 11 04:38:19.748108 2023] [core:error] [pid 54534] [client 185.180.143.141:51068] AH00126: Invalid URI in request HEAD /icons/.%2e/%2e%2e/apache2/icons/sphere1.png HTTP/1.1
+[Tue Jul 11 10:21:45.917017 2023] [core:error] [pid 54580] [client 213.109.202.66:54258] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Wed Jul 12 14:26:04.586885 2023] [core:error] [pid 22472] [client 213.109.202.66:46776] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Fri Jul 14 19:00:25.490728 2023] [ssl:error] [pid 85180] [client 162.142.125.13:42416] AH02032: Hostname codagetech.com provided via SNI and hostname 192.101.68.45 provided via HTTP have no compatible SSL setup
+[Fri Jul 14 19:23:29.705643 2023] [core:error] [pid 95330] [client 213.109.202.66:49944] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jul 16 06:38:51.873435 2023] [core:error] [pid 131793] [client 213.109.202.66:46710] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun Jul 16 08:18:19.849690 2023] [ssl:error] [pid 131793] [client 3.84.207.59:39728] AH02042: rejecting client initiated renegotiation

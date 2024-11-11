@@ -1,0 +1,24 @@
+{
+    "name": "Accounting",
+    "alias": "accounting",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\Accounting\\Providers\\AccountingServiceProvider"
+    ],
+    "migration": {
+        "seeds": [
+            "Modules\\Accounting\\database\\Seeders\\AccountingRolesTableSeeder",
+            "Modules\\Accounting\\database\\Seeders\\LettersOfGuaranteeTypesTableSeeder",
+            "Modules\\Accounting\\database\\Seeders\\InsuranceTypesTableSeeder",
+            "Modules\\Accounting\\database\\Seeders\\BankAccountTypesSeeder",
+            "Modules\\Accounting\\database\\Seeders\\CredibtorsCodesSeeder",
+            "Modules\\Accounting\\database\\Seeders\\SettingsTableSeeder"
+        ]
+    },
+    "aliases": {},
+    "files": [],
+    "requires": []
+
+}

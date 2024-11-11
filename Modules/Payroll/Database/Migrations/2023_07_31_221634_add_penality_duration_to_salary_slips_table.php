@@ -1,0 +1,35 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddPenalityDurationToSalarySlipsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('salary_slips', function (Blueprint $table) {
+            if (!Schema::hasColumn('salary_slips', 'penality_duration')) {
+                $table->integer('penality_duration');
+            }
+        });
+        
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('salary_slips', function (Blueprint $table) {
+            //
+        });
+    }
+}

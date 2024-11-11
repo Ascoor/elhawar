@@ -1,0 +1,55 @@
+stepsData: [
+        {
+          registrationStatus: { value: "A", danger: false },
+          businessSector: { value: "", danger: false }
+        },
+        {
+          agreed: { value: true, danger: false }
+        },
+        {
+          phoneNumber: { value: "", danger: false },
+          email: { value: "", danger: false },
+          address: { value: "", danger: false },
+          landMark: { value: "", danger: false },
+          governorate: { value: "", danger: false },
+          area: { value: "", danger: false },
+          serviceType: { value: "", danger: false },
+          currency: { value: "", danger: false },
+          businessSector: { value: "", danger: false },
+          subCat: { value: "", danger: false },
+          description: { value: "", danger: false },
+          website: { value: "", danger: false }
+        },
+        {
+          companyNameEnglish: { value: "", danger: false },
+          companyNameArabic: { value: "", danger: false },
+          companyMobileNumber: { value: "", danger: false },
+          companyContactEmail: { value: "", danger: false },
+          companyRegisterdEmail: { value: "", danger: false },
+          companyWebsite: { value: "", danger: false },
+          commercialRegisterNumber: { value: "", danger: false },
+          taxId: { value: "", danger: false },
+          signatoryName: { value: "", danger: false },
+          signatoryPosition: { value: "", danger: false },
+          bankAccountName: { value: "", danger: false },
+          bankAccountNumber: { value: "", danger: false },
+          bankName: { value: "", danger: false },
+          bankBranch: { value: "", danger: false },
+          bankCode: { value: "", danger: false },
+          IBAN: { value: "", danger: false }
+        },
+        {
+          businessNameEnglish: { value: "", danger: false },
+          businessNameArabic: { value: "", danger: false },
+          signatoryName: { value: "", danger: false },
+          ownerAddress: { value: "", danger: false },
+          bankAccountName: { value: "", danger: false },
+          bankAccountNumber: { value: "", danger: false },
+          bankName: { value: "", danger: false },
+          bankBranch: { value: "", danger: false },
+          bankCode: { value: "", danger: false }
+        },
+        {
+          agreed: { value: true, danger: false }
+        }
+      ],
